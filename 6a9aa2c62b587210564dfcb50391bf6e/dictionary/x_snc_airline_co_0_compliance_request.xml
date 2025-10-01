@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="edd972462b50b210564dfcb50391bf0e" extends="task" label="Compliance Request" max_length="40" name="x_snc_airline_co_0_compliance_request" type="collection">
+        <element label="Linked Item" max_length="40" name="linked_item" type="string"/>
+        <element choice="1" label="Stage" max_length="40" name="stage" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Risk Level" max_length="40" name="risk_level" type="choice">
+            <choice/>
+        </element>
+        <element label="Business Unit" max_length="40" name="business_unit" type="string"/>
+        <element choice="1" label="Regulatory Driver" max_length="40" name="regulatory_driver" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EASA" sequence="0" value="EASA"/>
+                <element inactive_on_update="false" label="FAA" sequence="1" value="FAA"/>
+                <element inactive_on_update="false" label="GDPR" sequence="4" value="GDPR"/>
+                <element inactive_on_update="false" label="HIPAA" sequence="7" value="HIPAA"/>
+                <element inactive_on_update="false" label="PCI" sequence="5" value="PCI"/>
+                <element inactive_on_update="false" label="SOX" sequence="6" value="SOX"/>
+                <element inactive_on_update="false" label="IOSA" sequence="3" value="IOSA"/>
+                <element inactive_on_update="false" label="IATA" sequence="2" value="IATA"/>
+            </choice>
+        </element>
+        <element label="Linked Knowledge" max_length="32" name="linked_knowledge" reference="kb_knowledge" type="reference"/>
+        <element label="Executive Sponsor" max_length="40" name="executive_sponsor" type="string"/>
+        <element label="Due Date" max_length="255" name="due_dat0" type="glide_date_time"/>
+        <element label="Details" max_length="65536" name="details" type="html"/>
+        <element label="summary" max_length="40" name="summary" type="string"/>
+    </element>
+</database>

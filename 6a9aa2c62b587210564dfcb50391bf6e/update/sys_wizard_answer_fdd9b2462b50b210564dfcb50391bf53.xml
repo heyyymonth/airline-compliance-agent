@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Compliance Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Compliance Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">7de6334c0f1032105831640900d1b246</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>venkatahemant.athota@snc</sys_created_by>
+        <sys_created_on>2025-10-01 21:56:38</sys_created_on>
+        <sys_id>fdd9b2462b50b210564dfcb50391bf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compliance Request</sys_name>
+        <sys_package display_value="Airline Compliance Agent" source="x_snc_airline_co_0">6a9aa2c62b587210564dfcb50391bf6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Airline Compliance Agent">6a9aa2c62b587210564dfcb50391bf6e</sys_scope>
+        <sys_update_name>sys_wizard_answer_fdd9b2462b50b210564dfcb50391bf53</sys_update_name>
+        <sys_updated_by>venkatahemant.athota@snc</sys_updated_by>
+        <sys_updated_on>2025-10-01 21:56:38</sys_updated_on>
+        <table/>
+        <target_url>x_snc_airline_co_0_compliance_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
