@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="regulatory_driver" label="Regulatory Driver" language="en" table="x_snc_airline_co_0_compliance_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>regulatory_driver</element>
+            <help/>
+            <hint/>
+            <label>Regulatory Driver</label>
+            <language>en</language>
+            <name>x_snc_airline_co_0_compliance_request</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>venkatahemant.athota@snc</sys_created_by>
+            <sys_created_on>2025-10-01 22:59:53</sys_created_on>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>Regulatory Driver</sys_name>
+            <sys_package display_value="Airline Compliance Agent" source="x_snc_airline_co_0">6a9aa2c62b587210564dfcb50391bf6e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Airline Compliance Agent">6a9aa2c62b587210564dfcb50391bf6e</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_airline_co_0_compliance_request_regulatory_driver_en</sys_update_name>
+            <sys_updated_by>venkatahemant.athota@snc</sys_updated_by>
+            <sys_updated_on>2025-10-01 23:11:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
